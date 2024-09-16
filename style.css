@@ -1,0 +1,29 @@
+/* BODY */
+body {
+    background-color: #574242;
+    color: #fff;
+}
+
+/* NAV BAR */
+.navbar {
+    background-color: rgba(114, 88, 88, 0.7) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #b38c8c !important;
+}
+
+.navbar-nav .nav-link i {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover i {
+    color: #b38c8c;
+}
