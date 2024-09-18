@@ -46,40 +46,33 @@ body {
 }
 
 /*SKILLS SECTION*/
+
 .skill {
-    text-align: center;
+    margin: 20px 0;
 }
 
 .circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.inside {
-    width: 90%;
-    height: 90%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.skill-name {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-}
-
-.circle::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    background: conic-gradient(#397a3b 0% var(--percent), #d6b1b100 var(--percent) 100%);
-    z-index: 1;
+    background: conic-gradient(#d8a4a4 0%, #5a3e3e var(--percent), #ffffff var(--percent), #ffffff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle .inside {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #574242;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percent {
+    font-size: 18px;
 }
